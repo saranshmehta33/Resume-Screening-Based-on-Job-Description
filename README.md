@@ -1,0 +1,10 @@
+# Resume-Screening-Based-on-Job-Description
+   Firstly I have installed and imported all the required libraries. Then I read a PDF file as an input and extracted all the text from the file. After all this, I cleaned the text by converting all the strings to lowercase and by removing all the numbers and punctuations.
+      I have created a dictionary with industrial and system engineering key terms by area. The key terms included in each area of this dictionary were obtained through research of the most common key terms included in industrial and system engineering job postings. This dictionary can be customized to add/remove key terms according to the hiring manager's criteria.
+      I have calculated the scores per area and created a sorted data frame for final scores creation. Based on this data frame I have created a piechart. With the help of this piechart, I have determined the highest expertise level in an industrial and system engineer’s resume out of the six different concentration areas.
+
+      After this, I have taken a Job Description in the form of a text document and extracted the text from this document. Then I found the cosine similarity between the texts of the resume’s PDF and the Job Description. At last match percentage is calculated which shows by how many percentages the resume matches the job description.
+
+
+ CONCLUSION
+      The project was completed successfully, I got to learn so many new things while working on this project. It helped me learn how to work with different python libraries and data in the form of PDFs and docs and also helped me in learning the implementation of various concepts.I have also gone through many possible applications of artificial intelligence and text mining on resume screening programs. Real Applicant Tracking Systems are quite more complex and advanced than the program built in here; they not only scan resumes content but their format too. It is crucial for candidates to know how resume screening systems work to beat them and get their resumes to be viewed by a talent acquisition professional.
